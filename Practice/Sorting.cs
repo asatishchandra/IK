@@ -32,6 +32,51 @@ namespace Practice
             }
         }
 
+        public static void InsertionSort(int[] arr)
+        {
+            //InsertionSortHelper(arr, arr.Length - 1);
+            InsertionSortIterativeHelper(arr);
+            Console.WriteLine(arr);
+        }
+
+        private static void InsertionSortHelper(int[] arr, int n)
+        {
+            if (n <= 0)
+                return;
+            
+            InsertionSortHelper(arr, n - 1);
+            int ele = arr[n];
+            int j = n - 1;
+            while(j >= 0 && arr[j] > ele)
+            {
+                arr[j+1] = arr[j];
+                j--;
+            }
+            arr[j+1] = ele;
+            return;
+        }
+
+        private static void InsertionSortIterativeHelper(int[] arr)
+        {
+            if (arr.Length <= 0)
+                return;
+
+            //InsertionSortHelper(arr, n - 1);
+            for(int i = 1; i < arr.Length; i++)
+            {
+                int ele = arr[i];
+                int j = i - 1;
+                while (j >= 0 && arr[j] > ele)
+                {
+                    arr[j + 1] = arr[j];
+                    j--;
+                }
+                arr[j + 1] = ele;
+            }
+            
+            return;
+        }
+
 
         private static void Swap(int index1, int index2, int[] arr)
         {

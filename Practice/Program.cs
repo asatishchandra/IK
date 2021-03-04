@@ -16,7 +16,8 @@ namespace Practice
             //DuplicateZeros(new int[] { 8, 4, 5, 0, 0, 0, 0, 7 });
             //RemoveElement(new int[] { 0, 1, 2, 2, 3, 0, 4, 2 }, 2);
             //Sorting.SelectionSort(new int[] { 64, 25, 12, 22, 11 });
-            Sorting.BubleSort(new int[] { 64, 25, 12, 22, 11 });
+            //Sorting.BubleSort(new int[] { 64, 25, 12, 22, 11 });
+            Sorting.InsertionSort(new int[] { 64, 25, 12, 22, 11 });
 
         }
 
