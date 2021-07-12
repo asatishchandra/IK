@@ -17,8 +17,57 @@ namespace Practice
             //RemoveElement(new int[] { 0, 1, 2, 2, 3, 0, 4, 2 }, 2);
             //Sorting.SelectionSort(new int[] { 64, 25, 12, 22, 11 });
             //Sorting.BubleSort(new int[] { 64, 25, 12, 22, 11 });
-            Sorting.InsertionSort(new int[] { 64, 25, 12, 22, 11 });
+            //Sorting.InsertionSort(new int[] { 534,5332,654,3356,34,665,23243,6766,33433,75656,344,886,343,65 });
+            //Sorting.MergeSort(new int[] { 64, 25, 12, 22, 11 });
+            //Sorting.MinimumWaitingTime(new int[] {3,2,1,2,6 });
+            //Recussion.LetterCombinations("23");
+            //Recussion.Get_Permutations_No_Dups(new List<int> { 1,2,2 });
+            //Recussion.generate_all_expressions("22", 4);
+            //Recussion.generate_all_combinations(new List<int> { 1, 1,1,1 }, 2);
+            //Graphs.can_be_divided(5, new List<int> { 0, 1, 1, 2, 3 }, new List<int> { 2, 2, 4, 3, 4 });
+            //var islands = new List<List<int>>
+            //{
+            //    new List<int> { 1, 0, 0, 0, 1, 0, 1  },
+            //    new List<int> { 0, 1, 0, 0, 0, 1, 0  },
+            //    new List<int> { 0, 0, 1, 0, 0, 0, 1  },
+            //    new List<int> { 0, 0, 0, 1, 0, 0, 0  },
+            //    new List<int> { 0, 0, 0, 0, 1, 0, 0  }
+            //};
+            //Islands.count_islands(islands);
 
+            //Graphs.can_be_completed(4, new List<int> { 1, 1, 3 }, new List<int> { 0, 2, 1 });can_be_completed_kahns
+            //Graphs.can_be_completed_kahns(14, new List<int> { 0,5,5,3,3,6,6,1,9,10,12}, new List<int> { 3,6,7,1,2,4,8,0,10,11,13 }); 
+
+            //Sorting.ThreeSum(new int[] { -1, 0, 1, 2, -1, -4 });
+            //Strings.LengthOfLongestSubstring("abcabcbb");
+            //Strings.rotationalCipher("abcdefghijklmNOPQRSTUVWXYZ0123456789", 39);
+            //Strings.rotationalCipher("1", 2);
+            //Strings.numberOfWays(new int[] { 1, 5, 3, 3, 3 }, 6);
+            //Recussion.get_distinct_subsets("aab");
+            //Recussion.generate_all_combinations_unique(new List<int> { 1, 1, 1, 1 }, 2);
+            //Recussion.check_if_sum_possible(new long[] { 1 }, 0);
+            //DP.levenshteinDistance("pizza", "yolo");
+            //DP.MinNumberOfCoinsForChange(7, new int[] { 2, 4 });
+            //DP.MaxSumIncreasingSubsequences(new int[] { 8,12,2,3,15,5,7 });
+            //DP.LongestCommonSubsequence("ZXVVYZW", "XKYKZPW");
+            //DP.WaterArea(new int[] { 0, 8, 0, 0, 5, 0, 0, 10, 0, 0, 1, 1, 0, 3 });
+            //DP.NumDecodingsTabulation("226");
+            //DP.MinCost(new int[][] { new int[] { 3, 5, 3 }, new int[] { 6, 17, 6 }, new int[] { 7, 13, 18 }, new int[] { 9, 10, 18 } });
+            //DP.IsInterleave("abc", "bcd", "abcbdc");
+            //DP.MaxProfitWithKTransactions(new int[] { 5,11,3,50,60,90 }, 2);
+            //DP.WordBreak("leetcode", new List<string> { "leet", "code" });
+            //DP.LeastBricks(new List<IList<int>> { new List<int> { 1, 2, 2, 1 }, new List<int> { 3, 1, 2 }, new List<int> { 1, 3, 2 }, new List<int> { 2, 4 }, new List<int> { 3, 1, 2 }, new List<int> { 1, 3, 1, 1 } });
+            //DP.LeastBricks(new List<IList<int>> { new List<int> { 1 }, new List<int> { 1 }, new List<int> { 1 } });
+            //Graphs.RiverSizes(new int[5, 5] { { 1, 0, 0, 1, 0 }, { 1, 0, 1, 0, 0 }, { 0, 0, 1, 0, 1 }, { 1, 0, 1, 0, 1 }, { 1, 0, 1, 1, 0 } });
+            //Graphs.HasSingleCycle(new int[] {2,3,1,-4,-4,2 });
+            //Graphs.CycleInGraph(new int[][] { new int [] { 1,3 }, new int[] { 2,3,4  }, new int[] { 0 }, new int[] { }, new int[] { 2, 5 }, new int[] { } });
+            //Graphs.CycleInUndirectedGraph(new int[][] { new int[] { 1, 2 }, new int[] { 2 }, new int[] {  } });
+            //Graphs.MinimumPassesOfMatrix(new int[][] { new int[] { 0,-2,-1 }, new int[] { -5,2,0 }, new int[] { -6,-2,0 } });
+            //Graphs.MinimumPassesOfMatrix(new int[][] { new int[] { 1, 0, 0, -2, -3 }, new int[] { -4, -5, -6, -2, -1 }, new int[] { 0, 0, 0, 0, -1 }, new int[] { 1, 2, 3, 0, -2 } });
+            //Sorting.FindUnsortedSubarray(new int[] { 2,1 });
+            //Graphs.NumIslands(new char[][] { new char[] { '1','1','1','1','0' }, new char[] { '1', '1', '0', '1', '0' }, new char[] { '1', '1', '0', '0', '0' }, new char[] { '0', '0', '0', '0', '0' } });
+            //Strings.decodeString(3, "mnes__ya_____mi");
+            Strings.decodeString(2, "hlowrd_el_ol");
         }
 
         public static int GetEvenCount(int[] nums)
@@ -74,7 +123,7 @@ namespace Practice
 
         public static bool CanPermutePalindrome(string s)
         {
-            if (s.Length == 1)
+           if (s.Length == 1)
                 return true;
             Dictionary<char, int> charCount = new Dictionary<char, int>();
 
